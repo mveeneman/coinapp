@@ -1,7 +1,8 @@
 name: coin_app
 description: "Demonstrates how to use the ultralytics_yolo plugin for detecting Euro coins."
 publish_to: "none"
-version: 1.0.0+1
+
+version: 1.1.0+3
 
 environment:
   sdk: ^3.8.1
@@ -11,9 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
-  image_picker: ^0.8.7
+  image_picker: ^1.2.1
   path_provider: ^2.0.0
-  archive: ^3.0.0
+  archive: ^4.0.7
   http: ^1.0.0
 
   ultralytics_yolo:
@@ -26,7 +27,7 @@ dev_dependencies:
     sdk: flutter
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
